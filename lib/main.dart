@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:spotify_music_application/feature/login/screens/login_page.dart';
+import 'package:spotify_music_application/feature/screens/choose_artists/choose_artist.dart';
+import 'package:spotify_music_application/feature/screens/sign_up/sign_up.dart';
+
+import 'feature/screens/login/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +21,7 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.blue,
       ),
-      home: const LoginPage()
+      home: const ChooseArtist()
     );
   }
 }
