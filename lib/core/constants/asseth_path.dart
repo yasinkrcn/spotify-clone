@@ -16,4 +16,6 @@ class AssetsPath {
   final String spotifySVG = 'assets/images/spotify.svg';
   final String appleSVG = 'assets/images/apple.svg';
   
+  
+  
 }
