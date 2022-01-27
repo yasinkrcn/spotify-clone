@@ -93,7 +93,7 @@ class HomePageBody extends StatelessWidget {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Image.network(homeProvider.albums[index].imagePath),
+                        Image.network(homeProvider.albums[index].imagePath,),
                         Expanded(
                           child: Padding(
                             padding: const EdgeInsets.only(left: 12),

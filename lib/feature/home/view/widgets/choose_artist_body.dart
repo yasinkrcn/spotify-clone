@@ -59,9 +59,8 @@ class ChooseArtistBody extends StatelessWidget {
                                 padding: const EdgeInsets.only(bottom: 8),
                                 child: ClipRRect(
                                   child: CircleAvatar(
-                                      child: Image.network(
+                                      backgroundImage: NetworkImage(
                                         homeProvider.albums[index].imagePath,
-                                        fit: BoxFit.fill,
                                       ),
                                       radius: 55),
                                   borderRadius: BorderRadius.circular(55),
