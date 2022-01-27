@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:spotify_music_application/feature/home/view/page/home_page.dart';
 import 'package:spotify_music_application/feature/home/viewmodel/home_provider.dart';
-import 'package:spotify_music_application/feature/login/screens/login_page.dart';
 
 void main() {
   runApp(
